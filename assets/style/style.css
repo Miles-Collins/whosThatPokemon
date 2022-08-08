@@ -1,1 +1,28 @@
 /* BASIC STYLES HERE */
+body {
+  background-image: url(https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-position: center;
+  background-size: cover;
+}
+
+.pokemon-header {
+  background-color: red;
+  height: 15VH;
+  border: 5px black solid
+}
+
+.pokedex {
+  height: 10VH;
+  border: 5px black solid
+}
+
+.description {
+  height: 20VH;
+  background-color: red;
+  border: 5px black solid;
+}
+
+.right-bar, .left-bar{
+  height: 100vh;
+  overflow-y: auto;
+}
